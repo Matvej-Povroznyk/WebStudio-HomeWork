@@ -1,0 +1,111 @@
+:root {
+    --accent-color: #2196F3;
+    --white-color: #FFF;
+    --bg-color: #2F303A;
+    --grey-color: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.web {
+    color: var(--accent-color)
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-link, .footer-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 3%;
+}
+
+.footer-link {
+    color: white;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    line-height: 1.14;
+    letter-spacing: 2%;
+}
+.nav-link:hover {
+    color: var(--accent-color)
+}
+
+.info:hover {
+    color: var(--accent-color)
+}
+
+.business-header {
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+}
+
+.important-header {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+}
+
+.important-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    color: var(--grey-color);
+}
+
+.work-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 3%;
+}
+
+.our-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 3%;
+}
+
+.team-header {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 3%;
+}
+
+.team-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    color: var(--grey-color);
+}
+
+footer .address-item {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.num, .info {
+    color: var(--grey-color)
+}
