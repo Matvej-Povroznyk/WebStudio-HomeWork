@@ -48,3 +48,6 @@ a {
 .info:hover {
     color: var(--accent-color)
 }
+.num, .info {
+    color: var(--grey-color)
+}
