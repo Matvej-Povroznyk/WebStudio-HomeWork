@@ -9,18 +9,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-ul {
-    list-style: none;
-}
-
 
 .web {
     color: var(--accent-color)
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }
 
 .header-link, .footer-link {
