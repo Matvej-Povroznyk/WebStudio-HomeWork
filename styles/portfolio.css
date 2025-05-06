@@ -1,46 +1,55 @@
 :root {
-    --accent-color: #2196F3;
-    --white-color: #FFF;
-    --grey-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #fff;
+  --grey-color: #757575;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 
 .web {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 
+.container {
+  outline: 2px solid red;
+  width: 1200px;
+}
 
-.header-link, .footer-link {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 3%;
+.container > * > * {
+  margin: 20px;
+}
+
+.header-link,
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 3%;
 }
 
 .footer-link {
-    color: white;
+  color: white;
 }
 
 .nav-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: black;
-    line-height: 1.14;
-    letter-spacing: 2%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+  line-height: 1.14;
+  letter-spacing: 2%;
 }
 .nav-link:hover {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .info:hover {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
-.num, .info {
-    color: var(--grey-color)
+.num,
+.info {
+  color: var(--grey-color);
 }
