@@ -6,12 +6,10 @@
 }
 
 .container {
+  margin: 0 auto;
+  padding: 0 15px;
   outline: 2px solid red;
   width: 1200px;
-}
-
-.container > * > * {
-  margin: 20px;
 }
 
 body {
