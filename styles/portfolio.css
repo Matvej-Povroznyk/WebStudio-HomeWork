@@ -103,6 +103,10 @@ body {
 .info:hover {
   color: var(--accent-color);
 }
+
+.address-text {
+  color: white;
+}
 .num,
 .info {
   color: var(--grey-color);
