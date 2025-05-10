@@ -5,6 +5,10 @@
   --grey-color: #757575;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -12,12 +16,10 @@
   width: 1200px;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-.web {
-  color: var(--accent-color);
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-link,
@@ -28,8 +30,17 @@ body {
   line-height: 1.19;
   letter-spacing: 3%;
 }
+
 .footer-link {
   color: white;
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.address-text {
+  color: var(--white-color)
 }
 
 .nav-link {
@@ -40,19 +51,29 @@ body {
   line-height: 1.14;
   letter-spacing: 2%;
 }
+
 .nav-link:hover {
   color: var(--accent-color);
+}
+
+.nav-list,
+.nav-address > .address-list {
+  display: flex;
+  gap: 50px;
 }
 
 .info:hover {
   color: var(--accent-color);
 }
 
-.business-header {
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 6%;
-  text-transform: uppercase;
+.important {
+  display: flex;
+  margin-top: 94px;
+}
+
+.important-list {
+  display: flex;
+  gap: 30px;
 }
 
 .important-header {
@@ -70,14 +91,66 @@ body {
   color: var(--grey-color);
 }
 
+.business {
+  display: flex;
+  padding: 200px 452px;
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+.business-header {
+  color: white;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+}
+
+.business-btn {
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: none;
+}
+
 .work-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 3%;
 }
 
+.our-work {
+  display: flex;
+}
+
+.work-list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+}
+
+.work-item {
+  flex: 1 0 200px;
+  max-width: 33%;
+}
+
+.work-img {
+  width: 100%;
+  height: auto;
+}
+
+.our-team {
+  margin-top: 94px;
+}
+
 .our-header {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -98,9 +171,32 @@ body {
   color: var(--grey-color);
 }
 
+.team-img {
+  width: 270px;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-text,
+.team-header {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-address > .address-list {
+  padding: 0;
+}
+
 footer .address-item {
   font-size: 14px;
   line-height: 1.71;
+}
+
+.footer {
+  padding: 60px 0;
+  background-color: var(--bg-color);
 }
 
 .num,
