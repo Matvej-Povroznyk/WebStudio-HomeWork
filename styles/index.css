@@ -135,13 +135,7 @@ body {
 }
 
 .work-item {
-  flex: 1 0 200px;
-  max-width: 33%;
-}
-
-.work-img {
-  width: 100%;
-  height: auto;
+  flex-basis: calc((100% - 30px * 2) / 3);
 }
 
 .our-team {
@@ -171,12 +165,14 @@ body {
   color: var(--grey-color);
 }
 
-.team-img {
-  width: 270px;
-}
 
 .team-list {
   display: flex;
+  gap: 30px;
+}
+
+.team-img {
+  width: 260px;
 }
 
 .team-text,
