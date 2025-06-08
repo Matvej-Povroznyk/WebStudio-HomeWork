@@ -8,8 +8,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.web {
-  color: var(--accent-color);
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px;
 }
 
 .header {
@@ -18,10 +20,48 @@ body {
   align-items: center;
 }
 
+.header-link,
+.footer-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 3%;
+}
+
+.footer-link,
+.address-text {
+  color: var(--white-color);
+}
+
+.footer {
+  padding: 60px 0;
+  background-color: #2f303a;
+}
+
+.footer-address > .address-list {
+  padding: 0;
+}
+
 .nav-list,
 .nav-address > .address-list {
   display: flex;
   gap: 50px;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
+  line-height: 1.14;
+  letter-spacing: 2%;
+}
+
+.nav-link:hover,
+.web,
+.info:hover {
+  color: var(--accent-color);
 }
 
 .filters {
@@ -39,74 +79,28 @@ body {
   border-radius: 4px;
 }
 
+.filter-btn:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.filter-btn:hover {
-  color: white;
-  background-color: var(--accent-color);
+.gallery-list > li:first-child {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 1px;
 }
-
-.container {
-  margin: 0 auto;
-  padding: 0 15px;
-  width: 1200px;
-}
-
 
 .gallery-img {
   width: 356.6718px;
 }
 
-
-.gallery-text {
-  color: var(--grey-color);
-}
-
-.footer {
-  padding: 60px 0;
-  background-color: #2f303a;
-}
-
-.header-link,
-.footer-link {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 3%;
-}
-
-.footer-link {
-  color: white;
-}
-
-.footer-address > .address-list {
-  padding: 0;
-}
-
-.nav-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  color: black;
-  line-height: 1.14;
-  letter-spacing: 2%;
-}
-.nav-link:hover {
-  color: var(--accent-color);
-}
-
-.info:hover {
-  color: var(--accent-color);
-}
-
-.address-text {
-  color: white;
-}
+.gallery-text,
 .num,
 .info {
   color: var(--grey-color);
