@@ -127,6 +127,9 @@ footer .address-item {
   padding: 200px 452px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
     url(../img/bg_image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 
