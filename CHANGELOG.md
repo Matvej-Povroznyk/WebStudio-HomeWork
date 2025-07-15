@@ -1,0 +1,41 @@
+# 📄 Changelog
+
+## [Unreleased Version](#unreleased)
+
+### Added / Removed:
+
+- Nothing now:
+  - `Descripion: None`
+
+### Changed:
+
+- Nothing now:
+  - `Descripion: None`
+
+### Fixed:
+
+- Nothing now:
+  - `Description: None`
+
+## [v.2025-07-15](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added / Removed:
+- Added `CHANGELOG.md` to `./` in project.
+- Created `svg/` folder:
+    - Added `symbol-defs.svg` to `svg/`:
+        > This file serves as an SVG sprite sheet containing multiple vector symbols that represent contact and social media icons.  
+        > Each icon is defined inside `<symbol>` elements with unique IDs, allowing them to be efficiently referenced throughout the application using the `<use>` tag in HTML.  
+        >  
+        > Benefits:  
+        > - **Performance:** Reduces HTTP requests by consolidating icons into a single SVG file.  
+        > - **Maintainability:** Centralized location for icon definitions makes updates easier.  
+        > - **Scalability:** Easy to add or remove icons without altering HTML structure.   
+        >  
+        > This approach helps keep markup clean and lightweight, leveraging SVG’s native support for reusable graphics.
+
+
+### Changed:
+- Nothing
+
+### Fixed:
+- Nothing
