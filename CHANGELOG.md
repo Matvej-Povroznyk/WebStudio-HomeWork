@@ -1,5 +1,19 @@
 # 📄 Changelog
 
+## [v.2025-07-20 (Fix)](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added / Removed:
+
+- Added svg to footer and header in `portfolio.html`
+
+### Changed:
+
+- Modified `portfolio.html`
+
+### Fixed:
+
+- Nothing.
+
 ## [v.2025-07-20](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:

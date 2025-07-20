@@ -60,8 +60,14 @@ body {
 
 .nav-link:hover,
 .web,
-.info:hover {
+.info:hover,
+.num:hover {
   color: var(--accent-color);
+}
+
+.info:hover .mail,
+.num:hover .tel {
+  fill: var(--accent-color);
 }
 
 .filters {
@@ -104,4 +110,79 @@ body {
 .num,
 .info {
   color: var(--grey-color);
+}
+
+.info,
+.num,
+.mail,
+.tel {
+  position: relative;
+  transition: ease 0.3s;
+}
+
+.mail {
+  display: block;
+  width: 16px;
+  height: 12px;
+  position: absolute;
+  left: -30px;
+  top: 2px;
+}
+
+.tel {
+  display: block;
+  width: 10px;
+  height: 16px;
+  position: absolute;
+  left: -17px;
+  top: 0;
+}
+
+footer {
+  position: relative;
+}
+
+.join {
+  position: absolute;
+  top: 50px;
+  left: 650px;
+}
+
+.join-title {
+  color: white;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.join-list {
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+}
+
+.join-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.join-link {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.join-link:hover {
+  background-color: var(--accent-color);
+}
+
+.join-link:hover .join-svg {
+  fill: white;
+}
+
+.join-link,
+.join-svg {
+  transition: ease 0.3s;
 }
