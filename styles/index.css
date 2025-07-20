@@ -39,8 +39,14 @@ body {
 
 .web,
 .nav-link:hover,
-.info:hover {
+.info:hover,
+.num:hover {
   color: var(--accent-color);
+}
+
+.num:hover .tel,
+.info:hover .mail {
+  fill: var(--accent-color);
 }
 
 .nav-link {
@@ -183,6 +189,7 @@ footer .address-item {
 
 .team-header {
   font-weight: 500;
+  color: black;
 }
 
 .team-text {
@@ -206,4 +213,151 @@ footer .address-item {
 .footer {
   padding: 60px 0;
   background-color: var(--bg-color);
+}
+
+.info,
+.num,
+.mail,
+.tel {
+  position: relative;
+  transition: ease 0.3s;
+}
+
+.mail {
+  display: block;
+  width: 16px;
+  height: 12px;
+  position: absolute;
+  left: -30px;
+  top: 2px;
+}
+
+.tel {
+  display: block;
+  width: 10px;
+  height: 16px;
+  position: absolute;
+  left: -17px;
+  top: 0;
+}
+
+.socials-list {
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+  margin: 0 32px 30px 32px;
+}
+
+.item-link {
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-svg,
+.join-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.item-link:hover {
+  background-color: var(--accent-color);
+}
+
+.item-link:hover,
+.item-link:hover .link-svg {
+  transition: ease 0.3s;
+}
+
+.item-link:hover .link-svg {
+  fill: white;
+}
+
+.regular-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.regular-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.regular-svg {
+  display: block;
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.regular-list {
+  display: flex;
+  gap: 30px;
+}
+
+.regular-item {
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.regular-item:hover {
+  border-color: var(--accent-color);
+}
+
+.regular-item,
+.regular-svg {
+  transition: ease 0.3s;
+}
+
+.regular-item:hover .regular-svg {
+  fill: var(--accent-color);
+}
+
+footer {
+  position: relative;
+}
+
+.join {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+}
+
+.join-title {
+  color: white;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.join-list {
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+}
+
+.join-link {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.join-link:hover {
+  background-color: var(--accent-color);
+}
+
+.join-link:hover .join-svg {
+  fill: white;
+}
+
+.join-link,
+.join-svg {
+  transition: ease 0.3s;
 }
