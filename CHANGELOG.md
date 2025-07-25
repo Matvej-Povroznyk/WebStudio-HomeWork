@@ -1,5 +1,19 @@
 # 📄 Changelog
 
+## [v.2025-07-25](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added / Removed:
+
+- Added `work-label` to `work-items`
+- Added a few animations to project.
+
+### Changed:
+- Modified `index.html`
+- Modified `styles/index.css`
+
+### Fixed:
+- Hover on `business` button
+
 ## [v.2025-07-20 (Fix)](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:
