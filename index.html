@@ -18,6 +18,54 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close>
+          <svg class="modal-svg">
+            <use href="./svg/symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <h3 class="title">Залиште свої дані, ми вам передзвонимо</h3>
+        <form>
+          <label for="" class="modal-label">
+            Ім'я
+            <input type="text" required class="form-input" />
+            <svg class="label-svg">
+              <use href="./svg/symbol-defs.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label for="" class="modal-label">
+            Телефон
+            <input type="text" required class="form-input" />
+            <svg class="label-svg">
+              <use href="./svg/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </label>
+          <label for="" class="modal-label">
+            Пошта
+            <input type="email" required class="form-input" />
+            <svg class="label-svg">
+              <use href="./svg/symbol-defs.svg#icon-email"></use>
+            </svg>
+          </label>
+          <label for="" class="modal-label">
+            Коментар
+            <textarea
+              placeholder="Введіть текст"
+              class="form-textarea"
+            ></textarea>
+          </label>
+          <label for="" class="modal-label">
+            <input type="checkbox" required class="form-checkbox" />
+            <span class="label-text"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="#">Умови договору</a></span
+            >
+          </label>
+          <button class="form-send" type="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
     <header class="container header">
       <a href="" class="header-link">
         <span class="web"> Web </span>
@@ -61,7 +109,7 @@
       <section class="business">
         <div class="container">
           <h1 class="business-header">Ефективні рішення для вашого бізнесу</h1>
-          <button class="business-btn">Замовити послугу</button>
+          <button class="business-btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="important">
@@ -369,7 +417,22 @@
             </li>
           </ul>
         </section>
+        <section class="subscribe">
+          <form>
+            <span class="sub-title">Підпишіться на розсилку</span>
+            <div class="form-row">
+              <input type="text" class="sub-input" placeholder="E-mail" />
+              <button type="submit" class="sub-send">
+                Підписатися
+                <svg>
+                  <use href="./svg/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </section>
       </div>
     </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>

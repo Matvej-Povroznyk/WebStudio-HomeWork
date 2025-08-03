@@ -1,5 +1,23 @@
 # 📄 Changelog
 
+## [v.2025-08-03](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added / Removed:
+- Added new modal window.
+- Added new `data-modal-open `attribute to business button.
+- Added `modal.js` script.
+- Added styles to modal window.
+- Added new `form` in `footer`
+- Removed `scale` option from `business-btn:hover`
+
+### Changed:
+- Modified `./svg/symbol-defs.svg`
+- Modified `./index.html`
+- Modified `./styles/index.css`
+
+### Fixed:
+- Fixed `business-btn:hover`
+
 ## [v.2025-07-25](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:

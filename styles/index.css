@@ -161,7 +161,6 @@ footer .address-item {
 
 .business-btn:hover {
   background-color: #1766a7;
-  transform: scale(1.1);
 }
 
 .work-header,
@@ -332,7 +331,7 @@ footer {
 
 .join {
   position: absolute;
-  top: 50px;
+  top: 46px;
   left: 600px;
 }
 
@@ -386,4 +385,231 @@ footer {
   left: 0;
   right: 0;
   user-select: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 20%);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 520px;
+  height: 581px;
+  padding: 8px 40px 40px;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+}
+
+[data-modal-close] {
+  color: black;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal-svg,
+.label-svg {
+  width: 18px;
+  height: 18px;
+}
+
+.label-svg {
+  position: absolute;
+  top: 28px;
+  left: 12px;
+  transition: ease 0.3s;
+}
+
+.modal > button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 430px;
+  padding: 6px;
+  border: 1px solid #0000001a;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.modal-label {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #757575;
+}
+
+.modal-label:nth-child(5) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.modal form {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal .title {
+  text-align: center;
+}
+
+.form-input,
+.form-textarea {
+  display: block;
+  width: 448px;
+  border: 1px solid #21212133;
+  border-radius: 4px;
+  outline: none;
+  transition: ease 0.4s;
+}
+
+.form-input {
+  height: 40px;
+  margin-top: 4px;
+  padding-left: 36px;
+}
+
+.form-textarea {
+  height: 120px;
+  padding: 16px;
+  resize: none;
+  transition: ease 0.3s;
+}
+
+.form-textarea::placeholder {
+  transition: ease 0.3s;
+}
+
+.form-input:hover,
+.form-input:focus,
+.form-textarea:hover,
+.form-textarea:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.form-textarea:hover::placeholder,
+.form-textarea:focus::placeholder {
+  color: var(--accent-color);
+}
+
+.form-input:hover + .label-svg,
+.form-input:focus + .label-svg {
+  fill: var(--accent-color);
+}
+
+.form-checkbox {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent-color);
+}
+
+.label-text {
+  margin-left: 4px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+}
+
+.label-text a {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.form-send,
+.sub-send {
+  display: flex;
+  align-items: center;
+  padding: 10px 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  color: white;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.form-send {
+  padding: 10px 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  box-shadow: 2px 3px 2px #00000026;
+}
+
+.form-send:hover,
+.sub-send:hover {
+  background-color: #1766a7;
+}
+
+.sub-send svg {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: white;
+}
+
+.subscribe {
+  position: absolute;
+  top: 65px;
+  left: 860px;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.sub-title {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sub-input {
+  display: block;
+  width: 360px;
+  height: 50px;
+  padding-left: 16px;
+  background-color: transparent;
+  border: 1px solid #ffffff4d;
+  border-radius: 4px;
+  outline: none;
+  caret-color: white;
+  transition: ease 0.3s;
+}
+
+.sub-input:hover,
+.sub-input:focus {
+  border-color: var(--accent-color);
+}
+
+.sub-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 3%;
+  color: #ffffff99;
+  transition: ease 0.3s;
+}
+
+.sub-input:hover::placeholder,
+.sub-input:focus::placeholder {
+  color: var(--accent-color);
 }
