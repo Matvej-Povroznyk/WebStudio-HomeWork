@@ -1,5 +1,18 @@
 # 📄 Changelog
 
+## [v.2025-08-03 (Fix)](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added / Removed:
+- Added `form` in `footer` of `./portfolio.html`
+
+### Changed:
+- Modified `./index.html`
+- Modified `./portfolio.html`
+- Modified `./styles/portfolio.css`
+
+### Fixed:
+- Nothing.
+
 ## [v.2025-08-03](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:
