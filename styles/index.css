@@ -44,6 +44,21 @@ body {
   color: var(--accent-color);
 }
 
+.nav-item {
+  position: relative;
+}
+
+
+.nav-underline {
+  background-color: var(--accent-color);
+  height: 4px;
+  position: absolute;
+  top: 33px;
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+
 .num:hover .tel,
 .info:hover .mail {
   fill: var(--accent-color);
@@ -58,6 +73,16 @@ body {
   letter-spacing: 2%;
   transition: ease 0.3s;
 }
+
+.nav-item:nth-child(1) > .nav-underline,
+.nav-link:hover + .nav-underline {
+  width: 100%;
+}
+
+.nav-item:nth-child(1) > .nav-link {
+  color: var(--accent-color);
+}
+
 
 .nav-list,
 .nav-address > .address-list,
@@ -260,6 +285,7 @@ footer .address-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: background-color 0.3s ease;
 }
 
 .link-svg,
@@ -271,11 +297,6 @@ footer .address-item {
 
 .item-link:hover {
   background-color: var(--accent-color);
-}
-
-.item-link:hover,
-.item-link:hover .link-svg {
-  transition: ease 0.3s;
 }
 
 .item-link:hover .link-svg {

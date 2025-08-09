@@ -1,21 +1,47 @@
 # 📄 Changelog
 
+## [v.2025-08-09](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added / Removed:
+
+- Added `underline` in `nav`
+- Added new animations
+- Added `hover` on projects in `./portfolio.html`
+- Added text when `hovering` on any project.
+- Added new `border` to `./portfolio.html`
+
+### Changed:
+
+- Modified `./index.html`
+- Modified `./portfolio.html`
+- Modified `./styles/index.css`
+- Modified `./styles/portfolio.css`
+
+### Fixed:
+
+- Fixed projects `box shadow` in `./portfolio.html`
+- Fixed `image` size in `./portfolio.html`
+
 ## [v.2025-08-03 (Fix)](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:
+
 - Added `form` in `footer` of `./portfolio.html`
 
 ### Changed:
+
 - Modified `./index.html`
 - Modified `./portfolio.html`
 - Modified `./styles/portfolio.css`
 
 ### Fixed:
+
 - Nothing.
 
 ## [v.2025-08-03](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:
+
 - Added new modal window.
 - Added new `data-modal-open `attribute to business button.
 - Added `modal.js` script.
@@ -24,11 +50,13 @@
 - Removed `scale` option from `business-btn:hover`
 
 ### Changed:
+
 - Modified `./svg/symbol-defs.svg`
 - Modified `./index.html`
 - Modified `./styles/index.css`
 
 ### Fixed:
+
 - Fixed `business-btn:hover`
 
 ## [v.2025-07-25](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
@@ -39,10 +67,12 @@
 - Added a few animations to project.
 
 ### Changed:
+
 - Modified `index.html`
 - Modified `styles/index.css`
 
 ### Fixed:
+
 - Hover on `business` button
 
 ## [v.2025-07-20 (Fix)](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
