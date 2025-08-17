@@ -1,5 +1,21 @@
 # 📄 Changelog
 
+## [v.2025-08-17](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added / Removed:
+
+- Added new `hover`, `box-shadow`, `color`, `background-color` and etc. animations.
+
+### Changed:
+
+- Modified `./styles/index.css`
+- Modified `./styles/portfolio.css`
+
+### Fixed:
+
+- Fixed `underline`'s position in `./index.html` and `./portfolio.html`'s nav.
+
+
 ## [v.2025-08-09](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:
