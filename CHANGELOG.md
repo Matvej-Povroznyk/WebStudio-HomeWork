@@ -1,5 +1,20 @@
 # 📄 Changelog
 
+## [v.2025-08-25](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added / Removed:
+
+- Added new `hover animation` in `./portfolio.html`
+- Added new `image` wrapper.
+
+### Changed:
+
+- Changed `hover` animation in `./portfolio.html`
+
+### Fixed:
+
+- Fixed overlay positions
+
 ## [v.2025-08-17](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:
