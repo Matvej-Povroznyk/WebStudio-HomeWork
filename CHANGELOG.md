@@ -1,5 +1,11 @@
 # 📄 Changelog
 
+## [v.2025-08-31](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
+
+### Added:
+
+- Added new `tada` animation to logo.
+
 ## [v.2025-08-25](https://github.com/Matvej-Povroznyk/WebStudio-HomeWork)
 
 ### Added / Removed:
